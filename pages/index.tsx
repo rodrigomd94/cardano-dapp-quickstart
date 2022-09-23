@@ -37,7 +37,10 @@ const Home: NextPage = () => {
       </div>
       <div>Address: {walletStore.address}</div>
       <div className="mx-40 my-10">
-        <div>NFTs:</div>
+        <Link href="/helios">
+          <button className="btn btn-primary m-5" >Smart Contract example</button>
+        </Link>
+        <div>Your NFTs:</div>
         <NftGrid nfts={nftList} />
       </div>
     </div>
