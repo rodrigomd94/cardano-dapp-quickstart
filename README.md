@@ -2,15 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+This project uses Next.js with typescript and tailwindcss. It comes with DaisyUI for making an easy interface and includes easy-peasy for easy state/context management.
+
+### Install dependencies
 Install all dependencies by running 
 ```bash
 yarn
 ```
-
+### Add blockfrost key
 Then create a file called .env.local to add you blockfrost api key as:
 NEXT_PUBLIC_BLOCKFROST=<project_id>
 
-First, run the development server:
+## Using Next.js
+To run the development server:
 
 ```bash
 npm run dev
