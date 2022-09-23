@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Install all dependencies by running 
+```bash
+yarn
+```
+
+Then create a file called .env.local to add you blockfrost api key as:
+NEXT_PUBLIC_BLOCKFROST=<project_id>
+
 First, run the development server:
 
 ```bash
