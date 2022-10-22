@@ -3,7 +3,9 @@ import { useEffect } from 'react'
 import NftCard from './NftCard'
 
 const NftGrid = (props : any) => {
-
+    useEffect(()=>{
+console.log(props)
+    },[props])
     return (
         <>
         <div className="grid grid-cols-4 gap-2">

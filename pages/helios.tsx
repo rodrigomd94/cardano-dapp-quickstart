@@ -8,7 +8,7 @@ import { getAssets } from "../utils/cardano";
 import NftGrid from "../components/NftGrid";
 import initLucid from '../utils/lucid'
 import { Lucid, TxHash, Lovelace, Constr, SpendingValidator, Data } from 'lucid-cardano'
-import * as helios from '../utils/helios'
+import * as helios from '@hyperionbt/helios'
 
 
 const Helios: NextPage = () => {
